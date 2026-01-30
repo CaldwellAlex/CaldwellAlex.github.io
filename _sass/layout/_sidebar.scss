@@ -170,6 +170,10 @@
       padding: 5px;
       border: 1px solid var(--global-border-color);
     }
+
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 1/1;
   }
 }
 
