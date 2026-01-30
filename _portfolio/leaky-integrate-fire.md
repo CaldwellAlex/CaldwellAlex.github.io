@@ -27,8 +27,8 @@ In Theoretical Neuroscience, we often care more about the *information* carried 
 While the Hodgkin-Huxley model is a beautiful masterpiece of biology, the LIF model is the engineer’s best friend. It’s the 'spherical cow' of neuroscience—simplified, but incredibly useful.
 
 <iframe src="/files/Leaky-Integrate-Fire-Model.html" style="width:100%; height:100vh; border:none;"></iframe>
-*Problems viewing the simulation? [Click here to open it in a new tab.](/assets/notebooks-html/Leaky-Integrate-Fire-Model.html)
+* Problems viewing the simulation? [Click here to open it in a new tab.](/files/Leaky-Integrate-Fire-Model.html)
 
 ---
 ### 🤝 Let's Connect
-Are you working on neural modeling or systems neuroscience? I am always looking for opportunities to collaborate or contribute to computational research. Feel free to reach out via [LinkedIn]("alexander-c-3a3660388") or [Email]("caldwella1@cardiff.ac.uk").
+Are you working on neural modeling or systems neuroscience? I am always looking for opportunities to collaborate or contribute to computational research. Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/alexander-c-3a3660388) or [Email](mailto:caldwella1@cardiff.ac.uk).

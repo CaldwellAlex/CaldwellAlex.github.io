@@ -25,8 +25,8 @@ Where $v$ represents the membrane potential and $u$ is a recovery variable provi
 This model bridges the gap between the biorealistic (Hodgkin-Huxley) and the abstract (LIF). It is the gold standard for large-scale simulations where biological variety is required without the immense computational cost of conductance-based models.
 
 <iframe src="/files/Izhikevich-Model.html" style="width:100%; height:100vh; border:none;"></iframe>
-*Problems viewing the simulation? [Click here to open it in a new tab.](/assets/notebooks-html/Izhikevich-Model.html)
+* Problems viewing the simulation? [Click here to open it in a new tab.](/files/Izhikevich-Model.html)
 
 ---
 ### 🤝 Let's Connect
-Are you working on neural modeling or systems neuroscience? I am always looking for opportunities to collaborate or contribute to computational research. Feel free to reach out via [LinkedIn]("alexander-c-3a3660388") or [Email]("caldwella1@cardiff.ac.uk").
+Are you working on neural modeling or systems neuroscience? I am always looking for opportunities to collaborate or contribute to computational research. Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/alexander-c-3a3660388) or [Email](mailto:caldwella1@cardiff.ac.uk).
