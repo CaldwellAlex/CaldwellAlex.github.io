@@ -24,4 +24,4 @@ Implementing this model highlighted the "all-or-nothing" nature of the action po
 
 ---
 ### 🤝 Let's Connect
-Are you working on neural modeling or systems neuroscience? I am always looking for opportunities to collaborate or contribute to computational research. Feel free to reach out via [LinkedIn] or [Email].
+Are you working on neural modeling or systems neuroscience? I am always looking for opportunities to collaborate or contribute to computational research. Feel free to reach out via [LinkedIn]("alexander-c-3a3660388") or [Email]("caldwella1@cardiff.ac.uk").
