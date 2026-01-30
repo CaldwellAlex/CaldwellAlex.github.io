@@ -16,14 +16,18 @@ Education
 * A-Levels - Mathematics (B), Physics (C), Level 3 Food Science & Nutrition (Merit), Welsh Baccalaureate (A)
 * GCSEs - 11 GCSEs at grades A*-B (Including Separate Sciences, Maths, and English)
 
-Work experience
+Experience
 ======
-* Neuroscience Student Academic Representative - Cardiff University (2024 - Present)
-* Neuroscience Student Academic Representative (Degree lead) - Cardiff University (2025 - Present)
-* Campaigner for Undergraduate Neuroscience Degree Access in Wales - Cardiff University (2024 - Present)
-* National Undergraduate Neuro anatomy Competition Regional Representative - NUNC (2025 - Present)
-* Cardiff University Student Ambassador and Guide - Cardiff University (2025 - Present)
-* Retail Associate - TK Maxx (2021 - 2022)
+* **Academic**
+    * Weeklong Research Experience in Immunohistochemistry of Q175 Knock-in Mouse Model of Huntington's Disease - Cardiff University (2025)
+    * Human Neuroanatomy Dissection - Cardiff University (2025)
+    * Neuroscience Student Academic Representative - Cardiff University (2024 - Present)
+    * Neuroscience Student Academic Representative (Degree lead) - Cardiff University (2025 - Present)
+    * Campaigner for Undergraduate Neuroscience Degree Access in Wales - Cardiff University (2024 - Present)
+    * National Undergraduate Neuro anatomy Competition Regional Representative - NUNC (2025 - Present)
+    * Cardiff University Student Ambassador and Guide - Cardiff University (2025 - Present)
+* **Work**
+    * Retail Associate - TK Maxx (2021 - 2022)
 
 Projects
 ======
