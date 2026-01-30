@@ -23,8 +23,8 @@ repository               : "CaldwellAlex/CaldwellAlex.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Profile.jpg"
-  name             : "Your Sidebar Name"
+  avatar           : "Profile.jpeg"
+  name             : "Alex Caldwell"
   pronouns         : "He/Him" 
   bio              : "Undergraduate Neuroscientist | Computational & Theoretical Research"
   location         : "Cardiff, Wales"
