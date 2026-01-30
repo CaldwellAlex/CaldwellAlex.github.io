@@ -31,14 +31,19 @@ Experience
 
 Projects
 ======
-* Leaky Integrate-and-Fire Neuron Model - Julia (2025)
-* Izhikevich Neuron Model - Julia (2025)
-* Hodgkin-Huxley Neuron Model - Julia (2025-2026)
+* [Leaky Integrate-and-Fire Neuron Model](/portfolio/leaky-integrate-fire/) - Julia (2025)
+* [Izhikevich Neuron Model](/portfolio/izhikevich-model/) - Julia (2025)
+* [Hodgkin-Huxley Neuron Model](/portfolio/hodgkin-huxley/) - Julia (2025-2026)
 
 Skills
 ======
 * **Programming Languages** - Python, R, Julia
 * **Software** - Git, GitHub, RStudio, VS Code, Google Antigravity, Microsoft Office Suite, Google Workspace, Google Gemini
+* **Techniques** - Immunohistochemistry, Human Neuro anatomy Dissection
+* **Research** - CRAAP analysis, literature reviews, graphical abstract creation
+* **Communication** - Public speaking, presentation skills
+* **Critical Thinking and Analysis** - Problem solving, analytical thinking, critical evaluation of information, evidence-based reasoning, logical reasoning
+* **Teamwork and Collaboration** - Teamwork, collaboration, leadership
 * **Tools** - Windows, macOS
 
 <!--
