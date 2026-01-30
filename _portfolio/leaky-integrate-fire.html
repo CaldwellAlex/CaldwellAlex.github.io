@@ -1,12 +1,29 @@
 ---
 title: "Leaky Integrate-and-Fire Neuron Model"
-excerpt: "A Julia implementation using Pluto.jl"
+excerpt: "Simulating the fundamental unit of large-scale spiking neural networks (SNNs)."
 collection: portfolio
 ---
 
-<p>This page displays a <strong>Leaky Integrate-and-Fire Neuron Model</strong> implemented in Julia.</p>
+## The Power of Simplification
+The Leaky Integrate-and-Fire (LIF) model is the "workhorse" of theoretical neuroscience. By ignoring the specific shape of the action potential and focusing on the timing of the "spike," we can simulate thousands of interacting neurons simultaneously.
 
-<p><em>(Note: Please export your Pluto notebook as HTML and name it <code>leaky-integrate-fire.html</code>, then upload
-        it to the <code>files/</code> directory of your repository.)</em></p>
+### The Physics
+The neuron is modeled as a simple $RC$ circuit where the membrane is a capacitor ($C$) in parallel with a resistor ($R$):
+
+$$\tau_m \frac{dV}{dt} = -(V - V_{rest}) + R I(t)$$
+
+When $V$ reaches a threshold $V_{th}$, a spike is recorded, and $V$ is reset to $V_{reset}$ for a refractory period.
+
+
+
+### Implementation Highlights
+* **Threshold Logic:** Efficient handling of the discontinuous "reset" event in Julia.
+* **Current Injection:** Exploration of how different input currents ($I$) affect the firing frequency (F-I curves).
+* **Scalability:** This implementation serves as the foundational unit for my future work in Spiking Neural Networks (SNNs).
+
+## Why it Matters
+In Theoretical Neuroscience, we often care more about the *information* carried by spike timing than the biophysics of the channel. The LIF model is the essential tool for studying neural coding and population dynamics.
+
+While the Hodgkin-Huxley model is a beautiful masterpiece of biology, the LIF model is the engineer’s best friend. It’s the 'spherical cow' of neuroscience—simplified, but incredibly useful.
 
 <iframe src="/files/Leaky-Integrate-Fire-Model.html" style="width:100%; height:100vh; border:none;"></iframe>

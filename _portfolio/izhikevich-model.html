@@ -1,7 +1,27 @@
 ---
 title: "Izhikevich Neuron Model"
-excerpt: "A Julia implementation using Pluto.jl"
+excerpt: "Exploring the 20 fundamental firing patterns of the mammalian cortex using a computationally efficient dynamical system."
 collection: portfolio
 ---
+
+## The Diversity of Firing
+The Izhikevich model is a powerful "phenomenological" model. It doesn't aim to simulate every ion channel; instead, it uses a simplified system of two differential equations to replicate the *behavior* of almost any known cortical neuron.
+
+### The Dynamics
+The model is defined by:
+$$v' = 0.04v^2 + 5v + 140 - u + I$$
+$$u' = a(bv - u)$$
+
+Where $v$ represents the membrane potential and $u$ is a recovery variable providing negative feedback.
+
+
+
+### Implementation Highlights
+* **Parameter Mapping:** I implemented a library of 20 distinct neuron types (Regular Spiking, Fast Spiking, Chattering, etc.) based on the original 2003/2004 papers.
+* **Phase Plane Analysis:** My simulation includes a visualization of the $v-u$ phase plane, allowing users to see how nullclines and fixed points shift to create different spiking regimes.
+* **Interactive Selector:** Using Pluto.jl, visitors can toggle between neuron types to instantly see changes in the spike train.
+
+## Why it Matters
+This model bridges the gap between the biorealistic (Hodgkin-Huxley) and the abstract (LIF). It is the gold standard for large-scale simulations where biological variety is required without the immense computational cost of conductance-based models.
 
 <iframe src="/files/Izhikevich-Model.html" style="width:100%; height:100vh; border:none;"></iframe>
