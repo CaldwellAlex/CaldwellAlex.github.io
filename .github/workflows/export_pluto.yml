@@ -1,0 +1,34 @@
+name: Export Pluto Notebooks
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install Julia
+        uses: julia-actions/setup-julia@v1
+        with:
+          version: '1.10'
+
+      - name: Export Notebooks
+        run: |
+          # 1. Create the destination folder
+          mkdir -p assets/notebooks-html
+          # 2. Install PlutoSliderServer in the global env
+          julia -e 'using Pkg; Pkg.add("PlutoSliderServer")'
+          # 3. Export everything in /notebooks to assets/notebooks-html
+          julia -e 'using PlutoSliderServer; export_directory("./notebooks", "assets/notebooks-html")'
+      
+      - name: Commit and Push HTML
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add assets/notebooks-html/*.html
+          git commit -m "Auto-update Pluto HTML exports" || exit 0
+          git push
