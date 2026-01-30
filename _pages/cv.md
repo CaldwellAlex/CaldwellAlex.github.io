@@ -11,43 +11,40 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* BSc Neuroscience - Cardiff University (2024 - Present)
+* Undergraduate Certificate of Higher Education in Neuroscience - Keele University (2023 - 2024)
+* A-Levels - Mathematics (B), Physics (C), Level 3 Food Science & Nutrition (Merit), Welsh Baccalaureate (A)
+* GCSEs - 11 GCSEs at grades A*-B (Including Separate Sciences, Maths, and English)
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Neuroscience Student Academic Representative - Cardiff University (2024 - Present)
+* Neuroscience Student Academic Representative (Degree lead) - Cardiff University (2025 - Present)
+* Campaigner for Undergraduate Neuroscience Degree Access in Wales - Cardiff University (2024 - Present)
+* National Undergraduate Neuro anatomy Competition Regional Representative - NUNC (2025 - Present)
+* Cardiff University Student Ambassador and Guide - Cardiff University (2025 - Present)
+* Retail Associate - TK Maxx (2021 - 2022)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+Projects
+======
+* Leaky Integrate-and-Fire Neuron Model - Julia (2025)
+* Izhikevich Neuron Model - Julia (2025)
+* Hodgkin-Huxley Neuron Model - Julia (2025-2026)
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Programming Languages** - Python, R, Julia
+* **Software** - Git, GitHub, RStudio, VS Code, Google Antigravity, Microsoft Office Suite, Google Workspace, Google Gemini
+* **Tools** - Windows, macOS
 
+<!--
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+#Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
@@ -62,3 +59,4 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+-->
