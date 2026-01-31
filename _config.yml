@@ -95,6 +95,9 @@ staticman:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 
 # Social Sharing
+atom_feed:
+  hide: false
+  path:
 og_image                 :  # Social media default site image
 og_description           :  # Social media default site image description
 # For specifying social profiles
