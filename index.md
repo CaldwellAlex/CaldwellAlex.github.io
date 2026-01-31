@@ -10,9 +10,9 @@ author_profile: true
 I'm an undergraduate Neuroscientist at Cardiff University, interested in computational and theoretical neuroscience, as well as interdisciplinary approaches to understanding the brain.
 
 ### 🧠 Research Interests
-* **Computational Neuroscience** - I'm interested in how sensory information is processed and represented in the brain, how it influences decision making and behaviour, and how this can be modelled computationally.
-* **Theoretical Neuroscience** - I'm interested in the theoretical underpinnings of neural computation, and how this can be used to understand brain function.
-* **Interdisciplinary Approaches** - I'm interested in how neuroscience can be combined with other fields, such as computer science, physics, and mathematics, to understand the brain.
+* **Computational Neuroscience** - How sensory information is processed and represented in the brain, how it influences decision making and behaviour, and how this can be modelled computationally.
+* **Theoretical Neuroscience** - The theoretical underpinnings of neural computation, and how this can be used to understand brain function.
+* **Interdisciplinary Approaches** - How neuroscience can be combined with other fields, such as computer science, physics, and mathematics, to understand the brain.
 
 ### 🎓 Education
 
