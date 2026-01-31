@@ -19,7 +19,7 @@ Education
 Experience
 ======
 * **Academic**
-    * Weeklong Research Experience in Immunohistochemistry of Q175 Knock-in Mouse Model of Huntington's Disease - Cardiff University (2025)
+    * Week-long Research Experience in Immunohistochemistry of Q175 Knock-in Mouse Model of Huntington's Disease - Cardiff University (2025)
     * Human Neuroanatomy Dissection - Cardiff University (2025)
     * Neuroscience Student Academic Representative - Cardiff University (2024 - Present)
     * Neuroscience Student Academic Representative (Degree lead) - Cardiff University (2025 - Present)
