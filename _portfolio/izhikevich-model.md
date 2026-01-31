@@ -29,4 +29,4 @@ This model bridges the gap between the biorealistic (Hodgkin-Huxley) and the abs
 
 ---
 ### 🤝 Let's Connect
-Are you working on neural modeling or systems neuroscience? I am always looking for opportunities to collaborate or contribute to computational research. Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/alexander-c-3a3660388) or [Email](mailto:caldwella1@cardiff.ac.uk).
+Are you working on neural modeling or systems neuroscience? I am always looking for opportunities to collaborate or contribute to computational research. Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/alexander-c-3a3660388) or [Email](mailto:hello@alexcaldwell.co.uk).
