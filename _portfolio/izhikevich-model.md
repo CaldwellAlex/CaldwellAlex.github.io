@@ -18,11 +18,15 @@ Where $v$ represents the membrane potential and $u$ is a recovery variable provi
 
 ### Implementation Highlights
 * **Parameter Mapping:** I implemented a library of 20 distinct neuron types (Regular Spiking, Fast Spiking, Chattering, etc.) based on the original 2003/2004 papers.
-* **Phase Plane Analysis:** My simulation includes a visualization of the $v-u$ phase plane, allowing users to see how nullclines and fixed points shift to create different spiking regimes.
+* **Phase Plane Analysis:** My simulation includes a visualisation of the $v-u$ phase plane, allowing users to see how nullclines and fixed points shift to create different spiking regimes.
 * **Interactive Selector:** Using Pluto.jl, visitors can toggle between neuron types to instantly see changes in the spike train.
 
 ## Why it Matters
-This model bridges the gap between the biorealistic (Hodgkin-Huxley) and the abstract (LIF). It is the gold standard for large-scale simulations where biological variety is required without the immense computational cost of conductance-based models.
+This model bridges the gap between the biorealistic (Hodgkin-Huxley) and the abstract (LIF). It's the gold standard for large-scale simulations that require biological variety without the immense computational cost of conductance-based models.
+
+---
+### Note
+*This model was created using Google Gemini 3 to focus on learning and understanding the fundamentals of the Izhikevich model, rather than the implementation details.*
 
 <iframe src="/files/Izhikevich-Model.html" style="width:100%; height:100vh; border:none;"></iframe>
 * Problems viewing the simulation? [Click here to open it in a new tab.]({{ "/files/Izhikevich-Model.html" | relative_url }})

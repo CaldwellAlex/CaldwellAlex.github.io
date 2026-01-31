@@ -17,7 +17,10 @@ $$C_m \frac{dV}{dt} = I_{ext} - \bar{g}_{Na}m^3h(V - E_{Na}) - \bar{g}_Kn^4(V - 
 * **Interactive Parameters:** My Pluto.jl implementation allows for real-time manipulation of maximal conductances ($\bar{g}$) to simulate channel-blocking drugs (like TTX or TEA).
 
 ## Insights Gained
-Implementing this model highlighted the "all-or-nothing" nature of the action potential. By visualizing the phase plane of $V$ vs. $n$ (the potassium activation variable), I explored the stability of the resting state and the limit cycle of repetitive firing.
+Implementing this model highlighted the "all-or-nothing" nature of the action potential. By visualising the phase plane of $V$ vs. $n$ (the potassium activation variable), I explored the stability of the resting state and the limit cycle of repetitive firing.
+
+### Note
+*This model was created using Google Gemini 3 to focus on learning and understanding the fundamentals of the Hodgkin-Huxley model, rather than the implementation details.*
 
 <iframe src="/files/Hodgkin-Huxley-Model.html" style="width:100%; height:100vh; border:none;"></iframe>
 * Problems viewing the simulation? [Click here to open it in a new tab.]({{ "/files/Hodgkin-Huxley-Model.html" | relative_url }})
