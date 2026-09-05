@@ -1,0 +1,109 @@
+/* ==========================================================================
+   FEATURED PROJECT / MODEL CARDS
+   ========================================================================== */
+
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 2rem 0;
+}
+
+.project-card {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.25rem;
+  border-radius: 8px;
+  border: 1px solid var(--global-border-color, #e0e0e0);
+  background: var(--global-code-background-color, #fafafa);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  text-decoration: none !important;
+  color: inherit !important;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    border-color: var(--global-base-color, #2f7f93);
+    text-decoration: none !important;
+  }
+}
+
+html[data-theme="dark"] .project-card {
+  background: #161b22;
+  border-color: #30363d;
+
+  &:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    border-color: var(--global-base-color, #0ea1c5);
+  }
+}
+
+.project-card__header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.project-card__icon {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.project-card__title {
+  margin: 0 !important;
+  font-size: 1.05rem !important;
+  font-weight: 700 !important;
+  color: var(--global-text-color, inherit) !important;
+}
+
+.project-card__desc {
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--global-text-color, #555);
+  opacity: 0.9;
+  margin: 0 0 1rem 0 !important;
+}
+
+.project-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1.1rem;
+}
+
+.project-card__tag {
+  font-size: 0.72rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 12px;
+  font-weight: 600;
+  background: rgba(47, 127, 147, 0.1);
+  color: var(--global-base-color, #2f7f93);
+  border: 1px solid rgba(47, 127, 147, 0.2);
+}
+
+html[data-theme="dark"] .project-card__tag {
+  background: rgba(14, 161, 197, 0.15);
+  color: #58a6ff;
+  border-color: rgba(88, 166, 255, 0.3);
+}
+
+.project-card__action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--global-base-color, #2f7f93);
+  margin-top: auto;
+  transition: gap 0.2s ease;
+}
+
+.project-card:hover .project-card__action {
+  gap: 0.6rem;
+}
+
+html[data-theme="dark"] .project-card__action {
+  color: #58a6ff;
+}
