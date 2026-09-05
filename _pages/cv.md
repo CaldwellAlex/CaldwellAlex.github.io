@@ -22,13 +22,15 @@ Experience
 * **Academic**
     * Week-long Research Experience in Immunohistochemistry of Q175 Knock-in Mouse Model of Huntington's Disease - Cardiff University (2025)
     * Human Neuroanatomy Dissection - Cardiff University (2025)
-    * Neuroscience Student Academic Representative - Cardiff University (2024 - Present)
-    * Neuroscience Student Academic Representative (Degree lead) - Cardiff University (2025 - Present)
+    * Neuroscience Student Academic Representative - Cardiff University (2024 - 2026)
+    * Neuroscience Student Academic Representative (Degree lead) - Cardiff University (2025 - 2026)
     * Campaigner for Undergraduate Neuroscience Degree Access in Wales - Cardiff University (2024 - Present)
-    * National Undergraduate Neuro anatomy Competition Regional Representative - NUNC (2025 - Present)
+    * National Undergraduate Neuro anatomy Competition Regional Representative - NUNC (2025 - 2026)
     * Cardiff University Student Ambassador and Guide - Cardiff University (2025 - Present)
 * **Work**
     * Retail Associate - TK Maxx (2021 - 2022)
+    * Student Project Consultant (Skills for Success Framework) - Cardiff University (2025 - 2026)
+    * Stage Crew at Principality Stadium - 24/7 Event Crew Ltd (2026) [Metallica]
 
 Projects
 ======
@@ -40,7 +42,7 @@ Skills
 ======
 * **Programming Languages** - Python, R, Julia
 * **Software** - Git, GitHub, RStudio, VS Code, Google Antigravity, Microsoft Office Suite, Google Workspace, Google Gemini
-* **Techniques** - Immunohistochemistry, Human Neuro anatomy Dissection
+* **Techniques** - Immunohistochemistry, Human neuroanatomical dissection
 * **Research** - CRAAP analysis, literature reviews, graphical abstract creation
 * **Communication** - Public speaking, presentation skills
 * **Critical Thinking and Analysis** - Problem solving, analytical thinking, critical evaluation of information, evidence-based reasoning, logical reasoning
