@@ -28,7 +28,7 @@ This model bridges the gap between the biorealistic (Hodgkin-Huxley) and the abs
 ### Note
 *This model was created using Google Gemini 3 to focus on learning and understanding the fundamentals of the Izhikevich model, rather than the implementation details.*
 
-<iframe src="/files/Izhikevich-Model.html" style="width:100%; height:100vh; border:none;"></iframe>
+<iframe src="/files/Izhikevich-Model.html" sandbox="allow-scripts allow-same-origin allow-downloads" style="width:100%; height:100vh; border:none;"></iframe>
 * Problems viewing the simulation? [Click here to open it in a new tab.]({{ "/files/Izhikevich-Model.html" | relative_url }})
 
 ---

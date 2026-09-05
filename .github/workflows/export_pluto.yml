@@ -1,18 +1,24 @@
 name: Export Pluto Notebooks
 on:
   push:
-    branches: [main]
+    branches: [master]
+    paths:
+      - 'notebooks/**'
+      - 'Project.toml'
+      - 'Manifest.toml'
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install Julia
-        uses: julia-actions/setup-julia@v1
+        uses: julia-actions/setup-julia@v2
         with:
           version: '1.10'
 
