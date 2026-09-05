@@ -11,7 +11,8 @@ redirect_from:
 
 Education
 ======
-* BSc Neuroscience - Cardiff University (2024 - Present)
+* MEng in Medical Engineering with Year in Industry - Cardiff University (2026 - Present)
+* Undergraduate Certificate of Higher Education in Neuroscience - Cardiff University (2024 - 2026)
 * Undergraduate Certificate of Higher Education in Neuroscience - Keele University (2023 - 2024)
 * A-Levels - Mathematics (B), Physics (C), Level 3 Food Science & Nutrition (Merit), Welsh Baccalaureate (A)
 * GCSEs - 11 GCSEs at grades A*-B (Including Separate Sciences, Maths, and English)
