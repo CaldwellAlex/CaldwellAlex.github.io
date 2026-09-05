@@ -249,15 +249,91 @@ html[data-theme="dark"] .simulation-toolbar {
 }
 
 /* ==========================================================================
-   STICKY TABLE OF CONTENTS
+   SMOOTH SCROLLING & HEADER CLEARANCE FOR ANCHOR LINKS
    ========================================================================== */
 
-.sidebar__right {
-  @include breakpoint($large) {
-    position: sticky !important;
-    top: 2rem;
-    max-height: calc(100vh - 4rem);
-    overflow-y: auto;
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure headings with an ID do not get covered by the sticky masthead */
+h1[id],
+h2[id],
+h3[id],
+h4[id],
+section[id],
+div[id] {
+  scroll-margin-top: 85px;
+}
+
+/* ==========================================================================
+   CV QUICK-NAV SECTION PILLS
+   ========================================================================== */
+
+.cv-quick-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  padding: 0.6rem 0.9rem;
+  border-radius: 8px;
+  background: var(--global-code-background-color, #f6f8fa);
+  border: 1px solid var(--global-border-color, #d0d7de);
+}
+
+html[data-theme="dark"] .cv-quick-nav {
+  background: #161b22;
+  border-color: #30363d;
+}
+
+.cv-quick-nav__label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--global-text-color, #444);
+  margin-right: 0.25rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  opacity: 0.85;
+}
+
+.cv-nav-pill {
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.25rem 0.65rem;
+  border-radius: 6px;
+  background: var(--global-bg-color, #fff);
+  border: 1px solid var(--global-border-color, #d0d7de);
+  color: var(--global-text-color, inherit) !important;
+  text-decoration: none !important;
+  transition: all 0.15s ease-in-out;
+
+  &:hover {
+    background: var(--global-base-color, #2f7f93);
+    color: #fff !important;
+    border-color: var(--global-base-color, #2f7f93);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+}
+
+html[data-theme="dark"] .cv-nav-pill {
+  background: #0d1117;
+  border-color: #30363d;
+
+  &:hover {
+    background: var(--global-base-color, #0ea1c5);
+    border-color: var(--global-base-color, #0ea1c5);
+    color: #fff !important;
+  }
+}
+
+@media print {
+  .cv-quick-nav {
+    display: none !important;
   }
 }
 

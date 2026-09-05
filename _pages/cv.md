@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "General CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -13,7 +13,13 @@ redirect_from:
   <button onclick="window.print()" class="btn btn--primary"><i class="fas fa-print"></i> Print / Save as PDF</button>
 </div>
 
-{% include toc %}
+<div class="cv-quick-nav">
+  <span class="cv-quick-nav__label"><i class="fas fa-compass"></i> Jump to:</span>
+  <a href="#education" class="cv-nav-pill">Education</a>
+  <a href="#experience" class="cv-nav-pill">Experience</a>
+  <a href="#projects" class="cv-nav-pill">Projects</a>
+  <a href="#skills" class="cv-nav-pill">Skills</a>
+</div>
 
 Education
 ======
