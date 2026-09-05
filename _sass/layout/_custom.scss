@@ -107,3 +107,205 @@ html[data-theme="dark"] .project-card__tag {
 html[data-theme="dark"] .project-card__action {
   color: #58a6ff;
 }
+
+/* ==========================================================================
+   CV ACTION BUTTONS & PRINT STYLES
+   ========================================================================== */
+
+.cv-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+  }
+}
+
+@media print {
+  .masthead,
+  .sidebar,
+  .page__footer,
+  .cv-actions,
+  #theme-toggle,
+  .greedy-nav {
+    display: none !important;
+  }
+
+  #main {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .page {
+    width: 100% !important;
+    padding: 0 !important;
+    float: none !important;
+  }
+
+  body {
+    background: #fff !important;
+    color: #111 !important;
+    font-size: 10.5pt !important;
+    line-height: 1.45 !important;
+  }
+
+  h1, h2, h3, h4 {
+    color: #000 !important;
+    page-break-after: avoid;
+  }
+
+  ul, ol {
+    margin-top: 0.25rem;
+    margin-bottom: 0.75rem;
+  }
+
+  li {
+    margin-bottom: 0.2rem;
+  }
+
+  a {
+    text-decoration: none !important;
+    color: #111 !important;
+  }
+}
+
+/* ==========================================================================
+   SIMULATION WORKSPACE & TOOLBAR
+   ========================================================================== */
+
+.simulation-container {
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  border: 1px solid var(--global-border-color, #d0d7de);
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  background: var(--global-bg-color, #fff);
+}
+
+html[data-theme="dark"] .simulation-container {
+  border-color: #30363d;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  background: #0d1117;
+}
+
+.simulation-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.65rem 1rem;
+  background: var(--global-code-background-color, #f6f8fa);
+  border-bottom: 1px solid var(--global-border-color, #d0d7de);
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+html[data-theme="dark"] .simulation-toolbar {
+  background: #161b22;
+  border-bottom-color: #30363d;
+}
+
+.simulation-title {
+  font-weight: 600;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--global-text-color, inherit);
+}
+
+.simulation-buttons {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+
+  .btn {
+    margin: 0 !important;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.8rem !important;
+    padding: 0.35rem 0.7rem !important;
+    border-radius: 4px;
+    text-decoration: none !important;
+  }
+}
+
+.simulation-frame {
+  width: 100%;
+  height: 85vh;
+  border: none;
+  display: block;
+}
+
+/* ==========================================================================
+   STICKY TABLE OF CONTENTS
+   ========================================================================== */
+
+.sidebar__right {
+  @include breakpoint($large) {
+    position: sticky !important;
+    top: 2rem;
+    max-height: calc(100vh - 4rem);
+    overflow-y: auto;
+  }
+}
+
+/* ==========================================================================
+   INTERACTIVE CONTACT CARD
+   ========================================================================== */
+
+.contact-card {
+  margin: 2.5rem 0 1.5rem 0;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: var(--global-code-background-color, #f6f8fa);
+  border: 1px solid var(--global-border-color, #d0d7de);
+}
+
+html[data-theme="dark"] .contact-card {
+  background: #161b22;
+  border-color: #30363d;
+}
+
+.contact-card__title {
+  margin-top: 0 !important;
+  margin-bottom: 0.4rem !important;
+  font-size: 1.15rem !important;
+}
+
+.contact-card__desc {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 1.2rem !important;
+  opacity: 0.9;
+}
+
+.contact-card__actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.85rem;
+    padding: 0.45rem 0.9rem;
+    border-radius: 6px;
+    text-decoration: none !important;
+  }
+}
+
+
+

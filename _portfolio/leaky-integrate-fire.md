@@ -31,8 +31,20 @@ While the Hodgkin-Huxley model is a beautiful masterpiece of biology, the LIF mo
 *This model was created using Google Gemini 3 to focus on learning and understanding the fundamentals of the Leaky Integrate-and-Fire model, rather than the implementation details.*
 
 ---
-<iframe src="/files/Leaky-Integrate-Fire-Model.html" sandbox="allow-scripts allow-same-origin allow-downloads" style="width:100%; height:100vh; border:none;"></iframe>
-* Problems viewing the simulation? [Click here to open it in a new tab.]({{ "/files/Leaky-Integrate-Fire-Model.html" | relative_url }})
+<div class="simulation-container">
+  <div class="simulation-toolbar">
+    <span class="simulation-title"><i class="fas fa-chart-line"></i> Interactive Pluto.jl Simulation</span>
+    <div class="simulation-buttons">
+      <a href="{{ '/files/Leaky-Integrate-Fire-Model.html' | relative_url }}" target="_blank" rel="noopener noreferrer" class="btn btn--primary">
+        <i class="fas fa-up-right-from-square"></i> Open Fullscreen
+      </a>
+      <a href="https://github.com/CaldwellAlex/CaldwellAlex.github.io/blob/master/notebooks/Leaky-Integrate-Fire-Model.jl" target="_blank" rel="noopener noreferrer" class="btn btn--inverse">
+        <i class="fab fa-github"></i> View Julia Source
+      </a>
+    </div>
+  </div>
+  <iframe src="/files/Leaky-Integrate-Fire-Model.html" sandbox="allow-scripts allow-same-origin allow-downloads" class="simulation-frame"></iframe>
+</div>
 
 ---
 ### 🤝 Let's Connect

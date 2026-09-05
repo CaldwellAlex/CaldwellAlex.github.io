@@ -118,4 +118,23 @@ I'm an undergraduate MEng (Hons) in Medical Engineering student at Cardiff Unive
 * **Mandarin Chinese** - Beginner
 * **Russian** - Beginner
 
+---
+
+<div class="contact-card">
+  <h3 class="contact-card__title">🤝 Let's Connect</h3>
+  <p class="contact-card__desc">
+    Interested in collaborating on neuromorphic engineering, computational neuroscience, or biomedical systems? Feel free to reach out directly:
+  </p>
+  <div class="contact-card__actions">
+    <a href="mailto:hello@alexcaldwell.co.uk?subject=Research%20or%20Collaboration%20Inquiry" class="btn btn--primary">
+      <i class="fas fa-envelope"></i> Send an Email
+    </a>
+    <a href="https://www.linkedin.com/in/alexander-c-3a3660388" target="_blank" rel="noopener noreferrer" class="btn btn--inverse">
+      <i class="fab fa-linkedin"></i> Connect on LinkedIn
+    </a>
+    <a href="https://github.com/CaldwellAlex" target="_blank" rel="noopener noreferrer" class="btn btn--inverse">
+      <i class="fab fa-github"></i> Follow on GitHub
+    </a>
+  </div>
+</div>
 

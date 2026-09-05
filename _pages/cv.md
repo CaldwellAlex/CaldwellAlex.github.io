@@ -9,6 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
+<div class="cv-actions">
+  <button onclick="window.print()" class="btn btn--primary"><i class="fas fa-print"></i> Print / Save as PDF</button>
+</div>
+
+{% include toc %}
+
 Education
 ======
 * MEng in Medical Engineering with Year in Industry - Cardiff University (2026 - Present)
